@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EA</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#1A237E</color>
+    <color name="black_243447">#243447</color>
+    <color name="black_141d26">#141d26</color>
+    <color name="purple_6200EA">#6200EA</color>
+    <color name="black_light_333333">#333333</color>
+    <color name="black_light_999999_color">#999999</color>
+    <color name="black_light_d3d3d3_color">#d3d3d3</color>
+    <color name="black_light_eae9e9_color">#eae9e9</color>
+    <color name="flat_button_stroke_color">#ededed</color>
+    <color name="search_bar_background_color">#f2f2f2</color>
+    <color name="tool_bar_start_color">#25dab3</color>
+    <color name="tool_bar_end_color">#2d7eb9</color>
+    <color name="red_ff9a9a">#ff9a9a</color>
+    <color name="green_04c591_color">#04c591</color>
+    <color name="darkGray">#555555</color>
+
+    <color name="transparent_5_color">#0D000000</color>
+    <color name="transparent_10_color">#1A000000</color>
+    <color name="transparent_15_color">#26000000</color>
+    <color name="transparent_20_color">#33000000</color>
+    <color name="transparent_25_color">#40000000</color>
+    <color name="transparent_30_color">#4D000000</color>
+    <color name="transparent_35_color">#59000000</color>
+    <color name="transparent_40_color">#66000000</color>
+    <color name="transparent_45_color">#73000000</color>
+    <color name="transparent_50_color">#80000000</color>
+    <color name="transparent_55_color">#8C000000</color>
+    <color name="transparent_60_color">#99000000</color>
+    <color name="transparent_65_color">#A6000000</color>
+    <color name="transparent_70_color">#B3000000</color>
+    <color name="transparent_75_color">#BF000000</color>
+    <color name="transparent_80_color">#CC000000</color>
+    <color name="transparent_85_color">#D9000000</color>
+    <color name="transparent_90_color">#E6000000</color>
+    <color name="transparent_95_color">#F2000000</color>
+    <color name="transparent_100_color">#FF000000</color>
+</resources>

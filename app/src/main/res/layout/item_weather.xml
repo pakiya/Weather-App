@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_8"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/dp_8"
+        app:cardCornerRadius="@dimen/dp_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rect_weather_background"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_8"
+            android:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_item_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Cloud"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_26"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/image_item_item_weather"
+                    android:layout_width="@dimen/dp_60"
+                    android:layout_height="@dimen/dp_60"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_cloud_black_24dp" />
+
+                <TextView
+                    android:id="@+id/temp_item_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="24* C"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_26"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/weather_location_home_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:text="India"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_26"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/weather_description_home_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:text="scattered clouds"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_14"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/weather_date_home_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:fontFamily="sans-serif"
+                    android:text="Tue, Jun 10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16"
+                    android:textStyle="normal" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_18"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="Pressure: "
+                            android:textColor="@color/flat_button_stroke_color"
+                            android:textSize="@dimen/sp_12"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/weather_pressure_home_fragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="1125"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="Humidity: "
+                            android:textColor="@color/flat_button_stroke_color"
+                            android:textSize="@dimen/sp_12"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/weather_humidity_chance_home_fragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="93%"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="Wind: "
+                            android:textColor="@color/flat_button_stroke_color"
+                            android:textSize="@dimen/sp_12"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/wind_home_fragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:maxLines="1"
+                            android:text="0 km/h"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp_14"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
